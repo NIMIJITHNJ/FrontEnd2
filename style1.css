@@ -1,0 +1,73 @@
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(69, 19, 145);text-align: right;margin-right: 20px; font-size: 36px;margin-top: 0px;}
+h6{position: absolute; top: 70px;right: 25px;color: black;font-family: 'Times New Roman', Times, serif;}
+body {
+    margin: 0;
+    height: 95vh;
+    background-image: url('Pic1.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.sp{font-family: Georgia, 'Times New Roman', Times, serif;color: black;font-style: oblique;text-align: right;margin-top: 350px;margin-right: 20px;}
+.sp1{font-family: 'Times New Roman', Times, serif ;color: black;font-style: normal;text-align: right;margin-top: 132px;margin-right: 0px;}
+.sp2{font-family: 'Times New Roman', Times, serif ;color: black;font-style: normal;text-align: right;margin-top: 74px;margin-right: 2px;}
+.sp3{font-family: 'Times New Roman', Times, serif ;color: black;font-style: normal;text-align: right;margin-top: 192px;margin-right: 2px;}
+.sp4{font-family: 'Times New Roman', Times, serif ;color: black;font-style: normal;text-align: right;margin-top: 255px;margin-right: 0px;}
+.sp5{font-family: 'Times New Roman', Times, serif ;color: black;font-style: normal;text-align: right;margin-top: 315px;margin-right: 0px;}
+.cart{position: absolute; top: 120px;right: 25px;}
+.myacc{position: absolute; top: 180px;right: 25px;}
+.shop{position: absolute; top: 240px;right: 25px;}
+.download{position: absolute; top: 300px;right: 25px;}
+.contact{position: absolute; top: 360px;right: 25px;}
+a{text-decoration: none;}
+.insta{position: absolute; bottom: 60px;right:100px;}
+.wup{position: absolute; bottom: 60px;right:150px;}
+.fb{position: absolute; bottom: 60px;right:50px;}
+p{position: absolute; bottom: 20px;right: 25px;}
+
+.scrolling-text-container {
+    overflow: hidden;
+  }
+.scrolling-text {
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+.text {
+  position: absolute;top: 500px;right: 25px;
+  padding: 4px;
+  background-color:rgb(167, 174, 173);
+  border: 2px solid rgb(7, 67, 58);
+  border-radius: 4px;
+  font-size: 14px;
+  width: 170px;
+}
+.text1 {
+  position: absolute;top: 530px;right: 25px;
+  padding: 4px;
+  background-color: rgb(167, 174, 173);
+  border: 2px solid rgb(7, 67, 58);
+  border-radius: 4px;
+  font-size: 14px;
+  width: 170px;
+}
+
+.btn1{
+  position: absolute;top: 560px;right: 25px;
+  padding: 6px 12px;
+  background-color: rgb(113, 163, 156);
+  color: rgb(7, 67, 58);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px; 
+}
+.btn1:hover{
+  color: aquamarine;
+}
+  
